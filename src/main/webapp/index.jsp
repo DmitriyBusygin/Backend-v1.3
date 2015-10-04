@@ -10,7 +10,7 @@
             $(document).ready(function () {
                 $("#tablediv").hide();
                 $("#showTable").click(function (event) {
-                    $.get('PopulateTable', function (responseJson) {
+                    $.get('WriteServlet', function (responseJson) {
                         if (responseJson !== null) {
                             $("#countrytable").find("tr:gt(0)").remove();
                             var table1 = $("#countrytable");

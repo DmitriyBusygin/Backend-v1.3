@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>PopulateTable</servlet-name>
+        <servlet-name>WriteServlet</servlet-name>
         <servlet-class>com.busdmv.testjson.servlet.WriteServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>PopulateTable</servlet-name>
-        <url-pattern>/PopulateTable</url-pattern>
+        <servlet-name>WriteServlet</servlet-name>
+        <url-pattern>/WriteServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
