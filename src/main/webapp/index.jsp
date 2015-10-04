@@ -30,7 +30,7 @@
     </head>
     <body class="container">
         <h1>Онлайн чат</h1>
-        <input type="button" value="Show Table" id="showTable"/>
+        <input type="button" value="Показать сообщения" id="showTable"/>
         <div id="tablediv">
             <table cellspacing="0" id="countrytable">
                 <tr>
